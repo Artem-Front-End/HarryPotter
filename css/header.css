@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #0C1618;
+    color: white;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    font-family: 'Harry Potter', sans-serif;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;
+    margin-top: 20px;
+}
+
+header li{
+    margin-left: 4%;
+}
+
+header a{
+    color: white;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #D1AC00;
+}
+
+.background img{
+    width: 100%;
+    object-fit: contain;
+}

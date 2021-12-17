@@ -1,0 +1,42 @@
+.characters{
+    width: 80%;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.charactersList{
+    list-style: none;
+    --auto-grid-min-size: 30rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    grid-gap: 2rem;
+}
+
+.characterBlock{
+    padding: 5px;
+    font-size: 18px;
+}
+
+.characterBlock:hover{
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px #D1AC00;
+    border-radius: 5%;
+}
+
+.characterBlock h1{
+    font-family: "Harry Potter", sans-serif;
+    color: #D1AC00;
+}
+
+.characterBlock p{
+    font-weight: bold;
+}
+
+.characterBlock span{
+    font-weight: normal;
+}
+
+.characterBlock img{
+    width: 350px;
+    height: 500px;
+}
