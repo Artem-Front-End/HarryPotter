@@ -1,3 +1,11 @@
+.dark-mode{
+    --aFont: white;
+}
+
+.light-mode{
+    --aFont: black;
+}
+
 .news{
     width: 80%;
     margin: 20px auto;
@@ -33,7 +41,7 @@
 }
 
 .news_item a{
-    color: white;
+    color: var(--aFont);
     text-decoration: none;
 }
 
